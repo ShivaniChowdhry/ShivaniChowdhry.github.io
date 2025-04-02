@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Section</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- Navigation Bar at the Top -->
+    <nav class="sticky-nav">
+        <div class="nav-container"> <!-- Wrapper for layout control -->
+            <div class="nav-name">Shivani Chowdhry</div> <!-- Your name added here -->
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#research">Research</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="documents/Industry resume_1page_ShivaniChowdhry.pdf" target="_blank">Resume</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+
+
+    <div class="about-section" id="about">
+        <div class="profile-picture">
+            <img src="images/about/1.png" alt="About Me">
+        </div>
+        <div class="text-content">
+            <h1>About</h1>
+            <p>Hi! I am a final-year PhD Candidate in a quantitative social science Ph.D. in Public Policy Analysis at University of Texas at Dallas. I hold an MS in Social Data Science & Research. My PhD dissertation focuses on the causal impacts of environmental factors, specifically how multiple air pollution exposures affect overall health outcomes. My research interests lie in applying data science and causal inference methods to address public health challenges. </p>
+            <p>My training equips me with advanced statistical and causal inference skills, enabling me to dissect complex data sets and extract meaningful insights. Moreover, my expertise in research methodologies enhances my ability to design robust studies and ensures the reliability of my findings. My academic journey has not only honed my quantitative analysis capabilities but has also sharpened my critical thinking and problem-solving skills. This combination empowers me to tackle multifaceted challenges, drive evidence-based decision-making, and communicate complex information clearly to stakeholders with varied expertise. Whether it’s improving public health outcomes, optimizing business strategies, or informing policy development, my training positions me to make a significant impact.</p>
+        </div>
+    </div>
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Projects Section</title>
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="container mt-5" id="research">
+            <!-- Research -->
+            <h2 class="section-title">Research</h2> <!-- Added section title here -->
+            <div class="row">
+                <div class="col-12">
+                    <div class="card h-100 mb-4">
+                        <img src="images/projects/1.jpg" class="card-img-top" alt="PhD Dissertation">
+                        <div class="card-body">
+                            <h5 class="card-title">PhD Dissertation: "From Smoke to Stress: Analyzing Causal Impact of Ambient Air Pollution and Solid Fuel Use on Mental Health Outcomes" (Under Review for Publication) </h5>
+                            <ul class="card-text">
+                                <li>Employing a causal instrumental variables framework with panel fixed effects estimation, the research identifies that exposures to solid fuels for cooking and ambient PM2.5 significantly increase the likelihood of depression and experiencing loss of energy in the long run.</li>
+                                <li>To complement the quantitative analysis, I conducted focus group discussions in rural Rajasthan, India. Thematic & text analysis from the discussions highlight the complex economic, cultural & informational challenges in transitioning to clean cooking technologies in rural India & discuss implications for policy design.</li>
+                                <li><strong>Skills/methods used:</strong> Data Collection, Data Mining, Data Wrangling (Large Datasets), Data Visualization, Causal Inference, Survey Design, Observational Study Design, Mixed Methods, Regression & Panel Data Models, Multiple Imputation, Machine Learning, Geospatial Analysis.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+            <!-- Projects -->
+ 
+        <div class="container mt-5" id="projects">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h2 class="section-title">Projects</h2> <!-- Centered title for the section -->
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="images/projects/2.jpg" class="card-img-top" alt="Project 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Geospatial and Regression Analysis of Air Pollution and Respiratory Health in DFW</h5>
+                            <p class="card-text">  I conducted a spatial analysis to examine the link between air pollution and respiratory illnesses in Dallas-Fort Worth. By merging datasets including air quality, health records, land use & socioeconomic data, I used generalized linear models (GLM) and geographically weighted regression (GWR) to map and assess pollution's health impacts distribution. This analysis identified key areas where pollution correlates highly with respiratory issues. </p>
+                                <p><strong>Skills/methods used:</strong> Advanced GIS, ArcGIS Pro, data merging and engineering with Tableau Prep and Microsoft Excel, advanced statistical modeling with GLM and GWR </p>
+                            <a href="https://github.com/ShivaniChowdhry/Geospatial-Regression-Analysis-of-Air-Pollution-and-Respiratory-Health-in-DFW/blob/main/README.md" class="btn btn-primary">Description</a> <!-- Separate button for Blog Post -->
+                            <a href="https://github.com/ShivaniChowdhry/Geospatial-Regression-Analysis-of-Air-Pollution-and-Respiratory-Health-in-DFW" class="btn btn-secondary">Source Code</a> <!-- Separate button for Source Code -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="images/projects/3.jpg" class="card-img-top" alt="Project 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Decoding Socio-Political Landscape of Texas Counties Using Spatial Hierarchical Clustering</h5>
+                            <p class="card-text">In this project, I employed spatial hierarchical clustering to categorize Texas counties into distinct groups based on their socio-economic, demographic, cultural, political, and residential characteristics. The aim was to identify homogeneous regions within the state that could inform more nuanced policy-making and strategic planning. The clustering was constrained by spatial adjacency to ensure that the resulting groups were similar in characteristics and also geographically contiguous. </p>
+                            <p><strong>Skills/methods used:</strong> R programming, Hierarchical Clusering, unsupervised machine learning, spatial data analysis, data visualization </p>
+                            <a href="https://github.com/ShivaniChowdhry/Spatial-Hierarchical-Clustering-Texas-Counties/blob/main/README.md" class="btn btn-primary">Description</a> <!-- Separate button for Blog Post -->
+                            <a href="https://github.com/ShivaniChowdhry/Spatial-Hierarchical-Clustering-Texas-Counties" class="btn btn-secondary">Source Code</a> <!-- Separate button for Source Code -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="images/projects/4.png" class="card-img-top" alt="Project 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Python App for Dynamic Personal Air Pollution Exposure Assessment</h5>
+                            <p class="card-text">In this project, I developed a Python application to dynamically calculate personal real-time air pollution exposure using smartwatch GPS trajectory data integrated with NASA's PM2.5 satellite data. The app performs spatiotemporal data analysis to assess how air quality impacts health and provides intuitive visualizations by overlaying GPS tracks with heatmaps, showcasing personalized pollution exposure levels. This application is designed for scalability and buit for handling more granular data analysis and extended format compatibility.</p>
+                            <p><strong>Skills/methods used:</strong> Python, Spyder, Jupyter, Pandas, GUI design, Spatiotemporal data </p>
+                            <a href="https://github.com/ShivaniChowdhry/DynamicPollutionExposure/blob/main/README.md" class="btn btn-primary">Description</a> <!-- Separate button for Blog Post -->
+                            <a href="https://github.com/ShivaniChowdhry/DynamicPollutionExposure" class="btn btn-secondary">Source Code</a> <!-- Separate button for Source Code -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="images/projects/5.jpg" class="card-img-top" alt="Project 4">
+                        <div class="card-body">
+                            <h5 class="card-title">Comparative Text Analysis: Sentiment and Discourse on COVID-19 Vaccination in Social Media v. Traditional Media</h5>
+                            <p class="card-text">In this project, our team conducted a text analysis to discern differences in keyword usage and sentiments about the COVID-19 vaccine on Twitter compared to traditional newspapers. Utilizing NLP techniques such as sentiment analysis, topic modeling, & network analysis our findings unveiled distinct patterns in keyword emphasis and sentiment, highlighting how social media platforms and newspapers differently shape public discourse around vaccination. </p>
+                            <p><strong>Skills/methods used:</strong> Data collection via APIs, Natural Language Processing, sentiment analysis, time series analysis, R Tidyverse, Quanteda </p>
+                            <a href="https://github.com/ShivaniChowdhry/Comparative-Text-Analysis-Covid-Vaccine/blob/main/README.md" class="btn btn-primary">Description</a> <!-- Separate button for Blog Post -->
+                            <a href="https://github.com/ShivaniChowdhry/Comparative-Text-Analysis-Covid-Vaccine" class="btn btn-secondary">Source Code</a> <!-- Separate button for Source Code -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="images/projects/6.jpg" class="card-img-top" alt="Project 4">
+                        <div class="card-body">
+                            <h5 class="card-title">Analyzing the Impact of YouTube on Public Perception of Climate Change using NLP </h5>
+                            <p class="card-text">In this project, we analyzed YouTube video content and user comments from educational channels to assess the impact on public sentiment towards climate change. Using sentiment analysis & topic modeling, our findings showed that these videos significantly enhance public understanding and engagement with climate issues, indicating a positive shift in sentiment and an evolution in content presentation to effectively communicate environmental concerns. </p>
+                            <p><strong>Skills/methods used:</strong> Data collection via APIs, Natural Language Processing, sentiment analysis, Python, Pandas, SQL </p>
+                            <a href="https://github.com/ShivaniChowdhry/Text-Analysis-using-NLP-on-YouTube-data/blob/main/README.md" class="btn btn-primary">Description</a> <!-- Separate button for Blog Post -->
+                            <a href="https://github.com/ShivaniChowdhry/Text-Analysis-using-NLP-on-YouTube-data" class="btn btn-secondary">Source Code</a> <!-- Separate button for Source Code -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="images/projects/7.jpg" class="card-img-top" alt="Project 4">
+                        <div class="card-body">
+                            <h5 class="card-title">Determinants of Cesarean Section Deliveries in India: A Path Analysis Approach </h5>
+                            <p class="card-text">In this project, I conducted an analysis to examine the factors contributing to Cesarean Section (CS) births in India using Generalized Structural Equation Modeling. By analyzing data from India’s Demographic & Health Survey, I explored the direct and indirect effects of socioeconomic factors, quality of maternal care, and delivery location on the likelihood of CS delivery. Findings indicate that delivery at private health facilities had significantly higher probability of resulting in a CS birth. </p>
+                            <p><strong>Skills/methods used:</strong> Structural Equation Modeling, Maximum Likelihood Estimator, STATA, large survey data analysis </p>
+                            <a href="https://github.com/ShivaniChowdhry/Determinants-of-Cesarean-Section-Deliveries-Path-Analysis/blob/main/README.md" class="btn btn-primary">Description</a> <!-- Separate button for Blog Post -->
+                            <a href="https://github.com/ShivaniChowdhry/Determinants-of-Cesarean-Section-Deliveries-Path-Analysis" class="btn btn-secondary">Source Code</a> <!-- Separate button for Source Code -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="images/projects/8.jpg" class="card-img-top" alt="Project 4">
+                        <div class="card-body">
+                            <h5 class="card-title">Shifting Terrain of Global Abortion Legislation: A Predictive Analysis Using Machine Learning </h5>
+                            <p class="card-text">In this project, our team undertook a comprehensive analysis to understand the global dynamics of abortion policies and their implications on access to abortion services. Utilizing decision trees, random forests, and multinomial logistic regression models, we examined how various sociopolitical, cultural, and economic factors influence abortion policy across 216 countries. Our findings highlighted the significant role of the human development, women's participation in society and politics and religious influences as predictors of abortion policy categories. </p>
+                            <p><strong>Skills/methods used:</strong> Decision Trees, Random Forests, Multinomial Logistic Regression </p>
+                            <a href="#" class="btn btn-primary">Description</a> <!-- Separate button for Blog Post -->
+                            <a href="#" class="btn btn-secondary">Source Code</a> <!-- Separate button for Source Code -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="images/projects/9.jpg" class="card-img-top" alt="Project 4">
+                        <div class="card-body">
+                            <h5 class="card-title">Interactive Tableau Dashboard: Socioeconomic & Health Patterns Across US Counties</h5>
+                            <p class="card-text">In this project, I created an interactive Tableau dashboard to visualize demographic & health data from the American Community Survey for 2018-2022 period. The dashboard integrates various data visualizations, each customized with specific colors, labels, and sizes to enhance readability and insight extraction. This dashboard serves as a dynamic tool for exploring nuanced demographic trends in US at county level. </p>
+                            <p><strong>Skills/methods used:</strong> Tableau, Data Cleaning, Data Visualization, Spatial Data Analysis, Interactive Dashboard Design </p>
+                            <a href="https://public.tableau.com/app/profile/shivani.chowdhry5910/viz/Shivani_Chowdhry_NHGIS_Dashboard/Dashboard1?publish=yes" class="btn btn-primary">Dashboard Link</a> <!-- Separate button for Dashboard link -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="images/projects/10.jpg" class="card-img-top" alt="Project 4">
+                        <div class="card-body">
+                            <h5 class="card-title">Interactive PowerBI Dashboard: Depression Prevalance and Correlates Across Texas Counties</h5>
+                            <p class="card-text">I developed an interactive Power BI dashboard by integrating NHGIS Census Data and CDC Public Health Data to visualize demographic and health statistics in Texas at county level from 2018 to 2022. The dashboard comprises a map visualization, charts, treemaps, highlight table and interactive filters and slicers that allow users to delve into specific counties. This visual compilation helps in understanding the prevalence of depression by gender across counties, alongside economic and health indicators. </p>
+                            <p><strong>Skills/methods used:</strong> PowerBI, Data Cleaning, Data Visualization, Spatial Data Analysis, Interactive Dashboard Design </p>
+                            <a href="https://app.powerbi.com/groups/me/reports/ac74f187-2e9c-4acf-b6a5-638bea935464/1121f83979e3a34e0c19?experience=power-bi" class="btn btn-primary">Dashboard Link</a> <!-- Separate button for Dashboard link -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+    </html>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skills Section</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container mt-5" id="skills">
+        <div class="row text-center">
+            <div class="col-12">
+                <h2 class="section-title">Skills</h2>
+            </div>
+            <div class="skills-section">
+    <!-- Methods & Skillsets -->
+    <div class="skills-category">
+        <h2>Methods & Skillsets</h2>
+        <div class="skills-grid">
+            <div class="skill">
+                <img src="images/skills/population-health.jpg" alt="Public Health Policy" class="skill-icon">
+                <h4>Public Health Policy</h4>
+            </div>
+            <div class="skill">
+                <img src="images/skills/human-behavior.jpg" alt="Human Behavior Data" class="skill-icon">
+                <h4>Human Behavior Data</h4>
+            </div>
+            <div class="skill">
+                <img src="images/skills/biostats.jpg" alt="Biostatistics and Econometrics" class="skill-icon">
+                <h4>Biostatistics and Econometrics</h4>
+            </div>
+            <div class="skill">
+                <img src="images/skills/survey.jpg" alt="Experiment & Survey Design" class="skill-icon">
+                <h4>Experiment & Survey Design</h4>
+            </div>
+            <div class="skill">
+                <img src="images/skills/machine-learning.jpg" alt="Machine Learning" class="skill-icon">
+                <h4>Machine Learning</h4>
+            </div>
+            <div class="skill">
+                <img src="images/skills/causal-inference.jpg" alt="Causal Inference" class="skill-icon">
+                <h4>Causal Inference</h4>
+            </div>
+            <div class="skill">
+                <img src="images/skills/data-mining.jpg" alt="Data Mining" class="skill-icon">
+                <h4>Data Mining</h4>
+            </div>
+            <div class="skill">
+                <img src="images/skills/2.png" alt="Data Visualization" class="skill-icon">
+                <h4>Data Visualization</h4>
+            </div>
+        </div>
+    </div>
+
+    <!-- Programming Languages & Tools -->
+    <div class="skills-category">
+        <h2>Programming Languages & Tools</h2>
+        <div class="skills-grid">
+            <div class="skill">
+                <img src="images/skills/1.png" alt="Python" class="skill-icon">
+                <h4>Python</h4>
+            </div>
+            <div class="skill">
+                <img src="images/skills/r.jpg" alt="R" class="skill-icon">
+                <h4>R</h4>
+            </div>
+            <div class="skill">
+                <img src="images/skills/3.png" alt="SQL" class="skill-icon">
+                <h4>SQL</h4>
+            </div>
+            <div class="skill">
+                <img src="images/skills/stata.jpg" alt="Stata" class="skill-icon">
+                <h4>Stata</h4>
+            </div>
+            <div class="skill">
+                <img src="images/skills/tableau.jpg" alt="Tableau" class="skill-icon">
+                <h4>Tableau</h4>
+            </div>
+            <div class="skill">
+                <img src="images/skills/power-bi.jpg" alt="PowerBI" class="skill-icon">
+                <h4>PowerBI</h4>
+            </div>
+            <div class="skill">
+                <img src="images/skills/git.jpg" alt="Git" class="skill-icon">
+                <h4>Git</h4>
+            </div>
+            <div class="skill">
+                <img src="images/skills/ArcGIS.jpg" alt="ArcGIS" class="skill-icon">
+                <h4>ArcGIS</h4>
+            </div>
+        </div>
+    </div>
+
+    <!-- Soft Skills -->
+    <div class="skills-category">
+        <h2>Soft Skills</h2>
+        <div class="skills-grid">
+            <div class="skill">
+                <img src="images/skills/PM.jpg" alt="Project Management" class="skill-icon">
+                <h4>Project Management</h4>
+            </div>
+            <div the="skill">
+                <img src="images/skills/teamwork.jpg" alt="Collaboration" class="skill-icon">
+                <h4>Teamwork</h4>
+            </div>
+            <div class="skill">
+                <img src="images/skills/teaching.jpg" alt="Teaching and Presentation" class="skill-icon">
+                <h4>Teaching and Presentation</h4>
+            </div>
+            <div the="skill">
+                <img src="images/skills/communication.jpg" alt="Research Communication and Outreach" class="skill-icon">
+                <h4>Research Communication and Outreach</h4>
+            </div>
+        </div>
+    </div>
+</div>
+
+        </div>
+    </div>
+</body>
+</html>
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="contact-me-container" id="contact">
+        <h2 class="contact-title">Contact Me:</h2> <!-- Title for the contact section -->
+        <div class="contact-me">
+            <!-- Icons and information are grouped in a single container for horizontal alignment -->
+            <div class="contact-items">
+                <div class="contact-item">
+                    <img src="icons/gmail.jpg" alt="Email">
+                    <p><a href="mailto:chowdhryshivani@gmail.com">Email</a></p> <!-- Corrected mailto link -->
+                </div>
+                <div class="contact-item">
+                    <img src="icons/github.png" alt="GitHub">
+                    <p><a href="https://github.com/ShivaniChowdhry">GitHub</a></p>
+                </div>
+                <div class="contact-item">
+                    <img src="icons/linkedin.png" alt="LinkedIn">
+                    <p><a href="https://www.linkedin.com/in/shivanichowdhry/">LinkedIn</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+</body>
+</html>
+
+
+
+
+</body>
+</html>

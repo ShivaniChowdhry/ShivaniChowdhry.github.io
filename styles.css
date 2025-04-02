@@ -1,0 +1,293 @@
+body {
+    font-family: Arial, sans-serif; /* Adjust font family as needed */
+    background-color: #fff; /* Adjust background color as needed */
+    margin: 0;
+    padding: 20px;
+    color: #333; /* Adjust text color as needed */
+}
+
+.about-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-picture img {
+    width: 300px; /* Adjust the size as needed */
+    height: 300px;
+    border-radius: 50%; /* Makes the image round */
+    margin-right: 20px; /* Adjust the margin as needed */
+    position: relative;
+    left: -40px; /* Adjust this value to suit */
+    
+}
+
+.text-content {
+    max-width: 500px; /* Adjust width as per your design preference */
+}
+
+.text-content h1 {
+    margin-top: 0;
+    color: #000; /* Adjust heading color as needed */
+}
+
+.section-title {
+    margin-bottom: 20px; /* Adds space below the title */
+    font-weight: bold; /* Makes the text bold */
+}
+
+.card {
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds shadow for better visual effect */
+}
+
+.card-img-top {
+    width: 100%; /* Ensures image covers the card width */
+    height: 200px; /* Adjust as necessary */
+    object-fit: cover; /* Ensures the image covers the area without stretching */
+}
+
+.card-body {
+    text-align: center; /* Center-aligns text within the card */
+}
+
+.card-body .btn {
+    margin-top: 10px;
+    margin-right: 5px; /* Adds a small gap between buttons */
+}
+
+.card-text {
+    list-style-type: disc;  /* Ensures bullet points are shown */
+    padding-left: 20px;  /* Adds indentation to the list */
+}
+
+.card-text li {
+    margin-bottom: 10px;  /* Adds space between list items */
+    text-align: justify;  /* Justifies the text for better readability */
+}
+
+
+.skill-icon {
+    width: 100px; /* Adjust the size of the icons */
+    height: auto; /* Keeps the aspect ratio of the icons */
+    margin-bottom: 10px; /* Space between the icon and the text */
+}
+
+.section-title {
+    margin-top: 20px;
+    margin-bottom: 30px; /* Adds more space below the section title */
+}
+
+@media (max-width: 768px) {
+    .skill-icon {
+        width: 75px; /* Smaller icons for smaller devices */
+    }
+}
+
+.card {
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-img-top {
+    width: 100%;
+    object-fit: cover; /* Ensures the image covers the height and width */
+}
+
+.card-body {
+    text-align: center;
+}
+
+/* Specific styles for the dissertation card to make it larger */
+.card.h-100 .card-img-top {
+    height: 400px; /* Increased height from 250px */
+}
+
+.card.h-100 .card-body {
+    padding: 20px;
+}
+
+/* Optional: Increase the overall size of the card */
+.card.h-100 {
+    margin-bottom: 30px; /* Adds more space below the card if needed */
+}
+
+.contact-me-container {
+    padding-top: 50px; /* Adds space above the contact-me box */
+    display: flex;
+    flex-direction: column; /* Ensures the title and box are stacked */
+    align-items: center; /* Centers the title and the box */
+}
+
+.contact-title {
+    font-size: 24px; /* Set the size of the title */
+    color: #333; /* Title color */
+    margin-bottom: 20px; /* Space between the title and the contact box */
+    font-weight: bold; 
+}
+
+.contact-me {
+    background-color: #b2c2bf; /* Sage green color */
+    padding: 20px;
+    text-align: center;
+    width: 100%; /* Adjusted to accommodate horizontal layout */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: adds shadow for depth */
+}
+
+.contact-items {
+    display: flex; /* Ensures items are laid out horizontally */
+    justify-content: center; /* Center aligns the items horizontally */
+    align-items: center; /* Aligns items vertically */
+    gap: 20px; /* Adds space between items */
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-item img {
+    width: 40px; /* Set appropriate size for the icons */
+    height: 40px;
+    margin-right: 10px;
+}
+
+.contact-item p {
+    margin: 0;
+    color: #333; /* Ensuring text is readable on the light background */
+}
+
+.contact-item a {
+    color: #333; /* Link color */
+    text-decoration: none; /* Remove underline from links */
+}
+
+.contact-item a:hover {
+    text-decoration: underline; /* Add underline on hover for better usability */
+}
+
+
+
+
+.social-media a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-color: #6a1b9a; /* Adjust color as per design */
+    border-radius: 50%;
+    line-height: 40px;
+    margin: 5px;
+}
+
+.social-media img {
+    width: 20px;
+    height: 20px;
+    color: white;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+.sticky-nav {
+    position: sticky;
+    top: 0;
+    background-color: #b2c2bf; /* Sage green color */
+    padding: 10px 0;
+    z-index: 1000;
+    width: 100%;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-name {
+    font-weight: bold;
+    margin-right: 10px; /* Adds space between your name and the nav links */
+    margin-left: 30px; /* Adds space on the left, moving the name to the right */
+    font-size: 20px; /* Increased font size for better visibility */
+}
+
+.sticky-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex; /* Changed from text-align: center to display:flex */
+    justify-content: center; /* This will center the links when there is space */
+}
+
+.sticky-nav ul li {
+    margin: 0 10px; /* Adjust spacing around each link */
+}
+
+.sticky-nav ul li a {
+    text-decoration: none;
+    color: black; /* Ensures contrast with the background */
+    padding: 10px 20px;
+}
+
+.sticky-nav ul li a:hover {
+    background-color: #99a9a6; /* Darker shade of sage green for hover effect */
+}
+
+ul li a {
+    text-decoration: none;
+    color: black; /* black color for better contrast */
+    padding: 5px 10px;
+}
+
+ul li a:hover {
+    background-color: #99a9a6; /* Slightly darker shade of sage green for hover */
+}
+
+
+.section-title {
+    text-align: center; /* Centers the text horizontally within its container */
+    width: 100%; /* Ensures the title spans the full width of its container */
+    margin-top: 20px; /* Optional: Adds space above the title */
+    margin-bottom: 20px; /* Optional: Adds space below the title */
+    font-size: 24px; /* Optional: Adjusts the size of the title */
+    color: #333; /* Optional: Sets the color of the title, adjust as needed */
+}
+
+.skills-section {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+
+.skills-category {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 10px;
+    flex-basis: 30%;
+    background-color: white;
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 10px;
+}
+
+.skill {
+    text-align: center;
+    padding: 10px;
+}
+
+.skill-icon {
+    width: 50px; /* Adjust size as necessary */
+    height: auto;
+    margin-bottom: 10px; /* Space between image and text */
+}
+
+h2, h4 {
+    margin: 5px 0;
+}
